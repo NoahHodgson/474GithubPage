@@ -2,3 +2,24 @@
     max-width: 500px;
     margin: auto;
   }
+
+body {
+      background-color:royalblue;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+  h1{
+      color: gold;
+  }
+  h2{
+      color: white;
+  }
+  p{
+      color: white;
+  }
+  li{
+      color: white;
+  }
+  a{
+      color: white;
+  }

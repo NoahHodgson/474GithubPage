@@ -2,13 +2,16 @@
     max-width: 500px;
     margin: auto;
   } 
+html{
+    min-height: 90%;
+}
 
 body {
     /*via https://cssgradient.io/*/
     background: rgb(21,17,84);
     background: linear-gradient(90deg, rgba(21,17,84,1) 0%, rgba(9,9,121,1) 6%, rgba(0,212,255,1) 100%);
-    
-      font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 90%;
   }
 
   h1{

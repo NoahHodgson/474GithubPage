@@ -182,7 +182,7 @@ body {
     background-color: gold;
   }
 
-  @media all and (orientation:portrait){
+  @media screen and (orientation:portrait){
     #flex{
       padding-top: 5px;
       display: grid;

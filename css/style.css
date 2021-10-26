@@ -108,6 +108,14 @@ body {
   a{
       color: white;
   }
+
+  #flex{
+    display: flex;
+  }
+  #flexchild{
+    flex: 1;
+  }
+
   .dropdown {
     float: left;
     overflow: hidden;
@@ -153,4 +161,23 @@ body {
   
   .dropdown:hover .dropdown-content {
     display: block;
+  }
+
+  .social-icons .social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    width: 75px;
+    background-color: white;
+    color: blue;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+  }
+  .social-icons .social-icon:last-child {
+    margin-right: 0;
+  }
+  .social-icons .social-icon:hover {
+    background-color: gold;
   }

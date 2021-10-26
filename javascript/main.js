@@ -27,28 +27,3 @@ function formCall() {
             });
     });
 }
-
-function homePageLoad() {
-    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-        document.getElementById("flex").innerHTML = `
-            <div id="mobilechild">
-                <br>
-                <br>
-                <!--Noah Hodgson, CISC 474 (010), Personal Web Page 3, noahmh@udel.edu-->
-                <img src="img/me.jpg" alt="a picture of me at the park" width="40%">
-                <h2>"Colorless green ideas sleep furiously."</h2>
-                <p>-Noam Chomsky</p>
-            </div>
-            <div id="mobilechild">
-                <br>
-                <h3 style="color:white; text-align: center;">I am a current Computer Science Senior with a passion for
-                    programming. Student of many languages ranging from Java and C++ to Python and JavaScript.
-                    Aggregating information and formulating the best algorithmic solution accordingly. Coding for good!
-                </h3>
-                <br>
-                <img src="img/gore.jpg" max width="50%">
-                <h3 style="color:white; text-align: center;">Full-Time Position with WL Gore and Associates Starting 2022!</h3>
-            </div>
-       `
-    }
-}

@@ -181,3 +181,8 @@ body {
   .social-icons .social-icon:hover {
     background-color: gold;
   }
+
+  @media screen and (orientation: portrait){
+    #flex{}
+    #flexchild{}
+  }

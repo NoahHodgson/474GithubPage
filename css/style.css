@@ -185,6 +185,7 @@ body {
   @media screen and (orientation: portrait){
     #flex{
       padding-top: 5px;
+      display: grid;
     }
     #flexchild{
       padding-top: 5px;

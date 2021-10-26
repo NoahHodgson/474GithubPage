@@ -183,6 +183,10 @@ body {
   }
 
   @media screen and (orientation: portrait){
-    #flex{}
-    #flexchild{}
+    #flex{
+      padding-top: 5px;
+    }
+    #flexchild{
+      padding-top: 5px;
+    }
   }

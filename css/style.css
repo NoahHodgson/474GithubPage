@@ -182,6 +182,19 @@ body {
     background-color: gold;
   }
 
+  #proj-image{
+    width: 50%;
+  }
+
+  #proj-small{
+    width: 30%;
+  }
+
+  #projects{
+    justify-content: center;
+    text-align: center;
+  }
+
   @media screen and (orientation:portrait){
     #flex{
       padding-top: 5px;
@@ -190,9 +203,11 @@ body {
     #flexchild{
       padding-top: 5px;
     }
-  }
-
-  #projects{
-    justify-content: center;
-    text-align: center;
+    #proj-image{
+      width: 80%;
+    }
+  
+    #proj-small{
+      width: 40%;
+    }
   }

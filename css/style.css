@@ -182,11 +182,11 @@ body {
     background-color: gold;
   }
 
-  #proj-image{
+  .proj-image{
     width: 50%;
   }
 
-  #proj-small{
+  .proj-small{
     width: 30%;
   }
 
@@ -203,11 +203,11 @@ body {
     .flexchild{
       padding-top: 5px;
     }
-    #proj-image{
+    .proj-image{
       width: 80%;
     }
   
-    #proj-small{
+    .proj-small{
       width: 40%;
     }
   }

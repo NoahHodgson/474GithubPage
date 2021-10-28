@@ -112,7 +112,7 @@ body {
   #flex{
     display: flex;
   }
-  #flexchild{
+  .flexchild{
     flex: 1;
   }
 
@@ -200,7 +200,7 @@ body {
       padding-top: 5px;
       display: grid;
     }
-    #flexchild{
+    .flexchild{
       padding-top: 5px;
     }
     #proj-image{

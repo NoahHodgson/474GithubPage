@@ -195,6 +195,11 @@ body {
     text-align: center;
   }
 
+  #aboutme{
+    width: 50%; 
+    margin:auto;
+  }
+
   @media screen and (orientation:portrait){
     #flex{
       padding-top: 5px;
@@ -209,5 +214,9 @@ body {
   
     .proj-small{
       width: 40%;
+    }
+    #aboutme{
+      width: 80%; 
+      margin:auto;
     }
   }

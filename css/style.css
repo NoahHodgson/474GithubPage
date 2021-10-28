@@ -200,11 +200,6 @@ body {
     margin:auto;
   }
 
-  #form_page{
-    -ms-transform: scale(1.1, 1.1);
-    -webkit-transform: scale(1.1, 1.1);
-    transform: scale(1.1, 1.1); 
-  }
 
   @media screen and (orientation:portrait){
     #flex{
@@ -213,6 +208,11 @@ body {
     }
     .flexchild{
       padding-top: 5px;
+    }
+    #form_page{
+      -ms-transform: scale(1.1, 1.1);
+      -webkit-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); 
     }
     .proj-image{
       width: 80%;

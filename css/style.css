@@ -218,6 +218,17 @@ body {
   }
 
   @media screen and (orientation:portrait){
+    .typewriter{
+      text-align: center;
+      white-space:nowrap;
+      padding-right: 3%;
+      padding-left: 4%;
+      font-size: 107%;
+    }
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 90%; }
+    }
     #flex{
       padding-top: 5px;
       display: grid;

@@ -199,7 +199,23 @@ body {
     width: 50%; 
     margin:auto;
   }
-
+  .typewriter{
+    overflow: hidden;
+    padding-right: 10%;
+    padding-left: 10%;
+    border-right: .15em solid transparent;
+    white-space: nowrap;
+    animation: typing 2s steps(20, end) forwards, blinking .8s 5;
+    width: 0;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 60%; }
+  }
+  @keyframes blinking {
+    from { border-color: transparent }
+    to { border-color: white; }
+  }
 
   @media screen and (orientation:portrait){
     #flex{
